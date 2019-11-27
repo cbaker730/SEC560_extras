@@ -43,6 +43,15 @@ Port scan:
 21..80 | % {echo $_; echo ((new-object Net.Sockets.TcpClient).Connect("10.0.0.1",$_)) “Port $_ is open" } 2>$null
 
 
+## Day 5
 
 
-Credits: Ed Skoudis, http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+Generate NTLM hash if you know the password:
+python -c 'import hashlib,binascii; print binascii.hexlify(hashlib.new("md4", "<password>".encode("utf-16le")).digest())'
+
+
+
+
+
+##Credits
+Ed Skoudis, http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
