@@ -54,4 +54,4 @@ Generate NTLM hash if you know the password:
 
 
 ## Credits
-Ed Skoudis, http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+Ed Skoudis, http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet, egre55 and mrh4sh from hackthebox.eu
