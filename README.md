@@ -53,6 +53,12 @@ Generate NTLM hash if you know the password:
     python -c 'import hashlib,binascii; print binascii.hexlify(hashlib.new("md4", "<password>".encode("utf-16le")).digest())'
 
 
+## After class is over
+
+Build your own SEC560 lab environment:
+
+10.10.10.5, 10.10.10.10, and 10.10.10.20 (the DC requires an additional step to promote it to a DC):
+* https://1337red.wordpress.com/building-and-attacking-an-active-directory-lab-with-powershell/
 
 
 
