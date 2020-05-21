@@ -61,8 +61,14 @@ Build your own SEC560 lab environment:
 * https://1337red.wordpress.com/building-and-attacking-an-active-directory-lab-with-powershell/
 
 
+## Install searchsploit on Slingshot
+    sudo git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb
+    sed 's|path_array+=(.*)|path_array+=("/opt/exploitdb")|g' /opt/exploitdb/.searchsploit_rc > ~/.searchsploit_rc
+    sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
+
 
 ## Credits
 * Ed Skoudis
 * http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 * egre55 and mrh4sh from hackthebox.eu
+* Bryce from Australia
