@@ -72,3 +72,4 @@ Build your own SEC560 lab environment:
 * http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 * egre55 and mrh4sh from hackthebox.eu
 * Bryce from Australia
+* Jeff McJunkin's great 560 class notes https://bit.ly/560notes
