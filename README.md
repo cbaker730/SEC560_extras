@@ -3,6 +3,11 @@
 
 ## Day 2
 
+### Neat things you can do with tcpdump
+
+https://www.middlewareinventory.com/blog/tcpdump-capture-http-get-post-requests-apache-weblogic-websphere/
+
+
 ### Netcat without netcat
 
 Check for existence of similar tools:
