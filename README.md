@@ -18,7 +18,7 @@ Linkcat
 Nc.py (sometimes called Pycat) http://atlas.r4780y.com/resources/atlasutils-2.2.5.tgz
 
 ### Some fun with cowsay and lolcat (thanks to Jeff McJunkin):
-while true; clear; do echo "I'm a cow" | cowsay -f $(ls /usr/share/cowsay/cows/ | sort -R | head -n1) "I'm a cow" | lolcat -a; sleep 5; clear; done
+    while true; clear; do echo "I'm a cow" | cowsay -f $(ls /usr/share/cowsay/cows/ | sort -R | head -n1) "I'm a cow" | lolcat -a; sleep 5; clear; done
 
 #### /dev/tcp
 File transfers:
